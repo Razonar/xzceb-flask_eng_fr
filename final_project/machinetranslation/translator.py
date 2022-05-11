@@ -23,7 +23,7 @@ def englishToFrench(englishText):
             text=englishText,
             model_id='en-fr').get_result()
         frenchText = translation['translations'][0]['translation']
-    return french_text
+    return frenchText
 
 def frenchToEnglish(frenchText):
     #write the code here
